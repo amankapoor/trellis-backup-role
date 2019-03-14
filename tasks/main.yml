@@ -1,4 +1,5 @@
 ---
+- import_playbook: install.yml
 - name: List backup jobs
   set_fact:
     backup_user: root
