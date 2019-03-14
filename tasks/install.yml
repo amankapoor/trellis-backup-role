@@ -1,0 +1,14 @@
+---
+
+- name: Install pip
+  apt:
+    name: python-pip
+
+- name: Upgrade pip
+  pip:
+    name: pip
+    extra_args: --upgrade
+
+- name: Install b2 module
+  pip:
+    name: b2
